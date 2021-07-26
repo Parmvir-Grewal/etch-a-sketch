@@ -1,1 +1,1 @@
-Recreation of Etch-A-Sketch online.
+Recreation of the game Etch-A-Sketch online.
