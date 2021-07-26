@@ -1,0 +1,36 @@
+:root {
+    --grid-cols: 1;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+#clear {
+    padding: 10px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: gray;
+}
+
+#grid {
+    display: grid;
+    max-width: 600px;
+    min-height: 600px;
+    margin: 20px auto;
+    border: 5px solid black;
+    border-radius: 5px;
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.gridBlock {
+    border: 1px solid black;
+}
